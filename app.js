@@ -1,7 +1,10 @@
 
 /**
  * Module dependencies.
- */
+Dependencias dos modulos necessarios
+
+*/
+
 
 var express = require('express');
 var load = require('express-load');
