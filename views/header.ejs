@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Come To Daddy</title>
+    <link rel='stylesheet' href='/stylesheets/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap.wysihtml5.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<div class="container">
+		<div class="header">
+			<ul class="nav nav-pills pull-right">
+				<li><a href="/" > Home</a>
+                </li>
+				<% if (sess.logged_in){ %>
+                  <li class="dropdown">
+                  <li class="active dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><%- sess.user.name %> <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="/user/<%-sess.user._id%>">Perfil</a></li>
+							<li class="divider"></li>
+							<li><a href="/logout">Sair</a></li>
+						</ul>
+					</li>
+					
+				<%} else {%>
+					<li><a href="/entrar">Login</a></li>
+				<% } %>
+			</ul>
+			<h3 class="text-muted">Come To Daddy - Sistema para Busca de Pets</h3>
+		</div>
+		<div class="row">

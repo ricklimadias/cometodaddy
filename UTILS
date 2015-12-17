@@ -1,0 +1,11 @@
+Operações Git.
+git add (os arquivos de atualização)
+git commit -m "Texto com as alterações"
+git push -u origin master
+Git Pages:
+$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+//Mongo
+db.users.find({})
+db.users.remove({})
