@@ -5,6 +5,7 @@
 * EJS 
 * MongoDB, 
 * Twitter Bootstrap 3
+* Nodemon
 
 ###Funcionalidades
 
@@ -12,11 +13,11 @@
 Para instalar o projeto:
 
 * Faça um clone ou baixe o repositorio no link [https://github.com/ricklimadias/cometodaddy/](https://github.com/ricklimadias/cometodaddy/)
-* cd blog && npm install
+* cd cometodaddy && npm install
 * npm start (certifique-se de ter o MongoDB rodando)
 * Abra [localhost:4200](http://localhost:4200)
 
 ###Testes
 Para rodas os testes:
 
-* cd techcampo && npm test
+* cd cometodaddy && npm test
