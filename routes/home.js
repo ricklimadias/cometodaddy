@@ -6,6 +6,4 @@ module.exports = function (app) {
 
 	app.get('/', logged, home.index);
 	
-	
-	
 }

@@ -10,6 +10,7 @@ module.exports = function (app) {
                     finded: req.body.comment.finded
 				})
                 
+                
 				post.save(function(){
 					res.redirect('/post/'+post._id);
 				})
