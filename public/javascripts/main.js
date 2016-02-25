@@ -3,7 +3,7 @@ $(document).ready(function () {
 	$('#tags').tagsInput({
 		defaultText:'Adicionar tag',
 	});
-
+console.log($('#finded').val());
 	//Editor para posts
 	$('#body').wysihtml5({
 		"font-styles": false,

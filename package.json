@@ -1,27 +1,26 @@
 {
-  "name": "cometodaddy",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "./node_modules/.bin/node-dev app.js",
-    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha test/*.js"
-  },
-  "dependencies": {
-    "async": "0.2.9",
-    "connect-mongo": "0.3.2",
-    "ejs": "*",
-    "express": "3.4.0",
-    "express-flash": "*",
-    "express-load": "1.1.7",
-    "moment": "*",
-    "mongoose": "*",
-    "nodemon": "*",
-    "underscore": "*"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "supertest": "*",
-    "node-dev": "2.0.1"
-  }
+	"name": "techcampo",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "./node_modules/.bin/node-dev app.js",
+		"test": "NODE_ENV=test ./node_modules/mocha/bin/mocha test/*.js"
+	},
+	"dependencies": {
+		"express" : "3.4.0",
+		"express-load" : "1.1.7",
+		"ejs" : "*",
+		"mongoose" : "*",
+		"async": "0.2.9",
+		"connect-mongo" : "0.3.2",
+		"moment" : "*",
+		"underscore" : "*",
+		"express-flash" : "*"
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"should": "*",
+		"supertest": "*",
+		"node-dev": "2.0.1"
+	}
 }

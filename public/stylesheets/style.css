@@ -127,7 +127,7 @@ body {
 }
 /* Users page */
 /* Posts page */
-.manejo-header, .user-header{
+.post-header, .user-header{
   width: 100%;
   display: table;
 } 

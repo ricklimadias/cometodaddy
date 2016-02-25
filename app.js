@@ -1,10 +1,7 @@
 
 /**
  * Module dependencies.
-Dependencias dos modulos necessarios
-
-*/
-
+ */
 
 var express = require('express');
 var load = require('express-load');
@@ -24,11 +21,11 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.use(express.favicon());
 app.use(express.logger('dev'));
-app.use(express.cookieParser('cometodaddy'));
+app.use(express.cookieParser('teste'));
 app.use(express.session({
-	secret: "cometodaddy",
+	secret: "teste01",
 	store: new mongoStore({
-		url: "mongodb://localhost/cometodaddy",
+		url: "mongodb://localhost/teste01",
 		collection : 'sessions'
 	})
 }));

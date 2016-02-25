@@ -83,7 +83,7 @@ module.exports = function (app) {
 				} else {
 					req.flash('success', 'Operação realizada com sucesso');
 					req.session.user = user;
-					res.redirect('/');
+					res.redirect('/posts');
 				};
 			});
 		},
